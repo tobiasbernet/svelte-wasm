@@ -93,15 +93,14 @@ svelte-wasm
    ```
 4. Start the server `npm run dev`.
    The output be something like:
-   ```
+   ```bash
    Your application is ready~! 🚀
 
    ➡ Port 5000 is taken; using 40179 instead
 
    - Local:      http://localhost:40179
-
-
-  ────────────────── LOGS ──────────────────
+ 
+   ────────────────── LOGS ──────────────────
 
    [23:02:30] 200 ─ 5.79ms ─ /
    [23:02:30] 200 ─ 1.51ms ─ /global.css
