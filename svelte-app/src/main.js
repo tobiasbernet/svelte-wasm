@@ -1,10 +1,14 @@
 import App from './App.svelte';
+import wasm from '../../wasm-game-of-life/Cargo.toml';
 
-const app = new App({
-	target: document.body,
-	props: {
-		name: 'world'
-	}
-});
+const init = async () => {
+    const wasmer = await wasm();
+    wasmer.greet();
 
-export default app;
+    const app = new App({
+        target: document.body
+    });
+
+};
+
+init();
