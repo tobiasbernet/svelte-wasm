@@ -15,6 +15,7 @@ Is not for: This project is neither a coding example from Rust nor from Svelte.
 
 ## Basics setup
 Svelte: I used the quick [tutorial](https://svelte.dev/blog/the-easiest-way-to-get-started) - straight forward.
+
 Rust-Wasm: I used the `hello-world` example form this great [tutorial](https://rustwalsm.github.io/docs/book/game-of-life/hello-world.html).
 
 Project structure:
