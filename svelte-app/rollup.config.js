@@ -39,7 +39,7 @@ export default [{
       }),
       commonjs(),
 			rust({
-        outDir: "build/",
+        outDir: "build",
       }),
 
       // In dev mode, call `npm run start` once
