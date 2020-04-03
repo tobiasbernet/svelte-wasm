@@ -40,7 +40,7 @@ export default [{
       commonjs(),
 			rust({
         verbose: true,
-        outDir: "",
+        serverPath: "/build/"
       }),
 
       // In dev mode, call `npm run start` once
