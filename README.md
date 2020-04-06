@@ -1,6 +1,6 @@
 # svelte-wasm
 
-Svelte-wasm is a example project that how WebAssembly and Svelte could work
+Svelte-wasm is an example project that how WebAssembly and Svelte could work
 together.
 
 This example project uses:
@@ -93,7 +93,7 @@ svelte-wasm
    init();
    ```
 4. Start the server `npm run dev`.
-   The output be something like:
+   The output should look something like this:
    ```bash
    Your application is ready~! 🚀
 
